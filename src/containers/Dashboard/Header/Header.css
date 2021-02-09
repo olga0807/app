@@ -1,0 +1,11 @@
+.DashboardHeader {
+    display: flex;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #38D58C;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif; /*instead of Helvetica Neue */
+    font-weight: 300;
+}

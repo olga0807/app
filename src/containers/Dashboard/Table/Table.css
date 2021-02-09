@@ -1,0 +1,40 @@
+table#dashboard {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-collapse:separate;
+    border-spacing: 0 10px;
+}
+
+#dashboard tr{
+    line-height: 50px;
+    background-color: #EFF0F0;
+    position: relative;
+}
+
+#dashboard th {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #A09E9E;
+    font-weight: 300;
+}
+
+#dashboard th:first-of-type {
+    padding-left: 20px;
+}
+
+#dashboard td:first-of-type {
+    padding: 0 20px;
+}
+
+
+#dashboard th svg {
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+
+
+
+

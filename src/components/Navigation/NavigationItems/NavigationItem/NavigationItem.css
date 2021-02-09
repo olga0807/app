@@ -1,0 +1,54 @@
+
+.NavigationItem {
+    line-height: 50px;
+    background-color: #222629;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.NavigationItem a {
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.LinkIcon {
+    padding: 0 15px 0 20px;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    border-left: 4px solid transparent;
+}
+
+
+.NavigationItem a.active .LinkIcon {
+    color: #39C5C8;
+    border-left: 4px solid #39C5C8;
+}
+
+.Submenu {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0 35px;
+    background-color: #1A1C1F;
+}
+
+.hideButton {
+    position: absolute;
+    display: inline-block;
+    top: -40px;
+    right: 0px;
+    color: #39C5C8;
+    z-index: 100;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.hideButton:hover {
+    transform: rotate(180deg);;
+    transition: all 0.1s ease-in;
+}
