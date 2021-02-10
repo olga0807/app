@@ -29,7 +29,7 @@ const store = createStore(rootReducer,
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename={"/dashboard"}>
                 <App />
             </BrowserRouter>
         </Provider>
