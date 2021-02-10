@@ -16,12 +16,12 @@ const rootReducer = combineReducers({
     db: dashboardReducer,
     sb: sidebarReducer
 });
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store = createStore(rootReducer, composeEnhancers(compose(
-    applyMiddleware(thunk))));
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+// const store = createStore(rootReducer, composeEnhancers(compose(
+//     applyMiddleware(thunk))));
 
-// const store = createStore(rootReducer,
-//     applyMiddleware(thunk));
+const store = createStore(rootReducer,
+    applyMiddleware(thunk));
 
 
 
