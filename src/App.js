@@ -3,17 +3,17 @@ import { Route, Switch, Redirect} from 'react-router-dom';
 
 
 import Layout from './HOC/Layout/Layout';
-import Dashboard from "./containers/Dashboard/Dashboard";
-import Users from "./containers/Users/Users";
-import Regions from "./containers/Regions/Regions";
-import Adapters from "./containers/Adapters/Adapters";
-import Catalog from "./containers/CatalogManagement/Catalog/Catalog";
-import Types from "./containers/CatalogManagement/Types/Types";
-import Categories from "./containers/CatalogManagement/Categories/Categories";
-import Manufacturers from "./containers/CatalogManagement/Manufacturers/Manufacturers";
-import Families from "./containers/CatalogManagement/Families/Families";
-import Models from "./containers/CatalogManagement/Models/Models";
-import LicenceGenerator from "./containers/LicenceGenerator/LicenceGenerator";
+import Dashboard from "./containers/Content/Dashboard/Dashboard";
+import Users from "./containers/Content/Users/Users";
+import Regions from "./containers/Content/Regions/Regions";
+import Adapters from "./containers/Content/Adapters/Adapters";
+import Catalog from "./containers/Content/CatalogManagement/Catalog/Catalog";
+import Types from "./containers/Content/CatalogManagement/Types/Types";
+import Categories from "./containers/Content/CatalogManagement/Categories/Categories";
+import Manufacturers from "./containers/Content/CatalogManagement/Manufacturers/Manufacturers";
+import Families from "./containers/Content/CatalogManagement/Families/Families";
+import Models from "./containers/Content/CatalogManagement/Models/Models";
+import LicenceGenerator from "./containers/Content/LicenceGenerator/LicenceGenerator";
 
 
 

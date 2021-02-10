@@ -4,7 +4,7 @@ import { faTachometerAlt, faUsers, faGlobe, faList, faCog, faFileAlt, faChevronD
 
 import './Layout.css';
 
-import SideBar from '../../components/Navigation/SideBar/SideBar';
+import SideBar from '../../containers/SideBar/SideBar';
 import ContainerFluid from '../../HOC/Layout/LayoutComponents/ContainerFluid/ContainerFluid';
 import Container from '../../HOC/Layout/LayoutComponents/Container/Container';
 

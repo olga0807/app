@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CloseButton from '../../../components/UI/Buttons/CloseButton/CloseButton';
+import CloseButton from '../../../../components/UI/Buttons/CloseButton/CloseButton';
 
 import './Header.css';
 

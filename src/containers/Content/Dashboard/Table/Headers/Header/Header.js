@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SortButton from '../../../../../components/UI/Buttons/SortButton/SortButton';
+import SortButton from '../../../../../../components/UI/Buttons/SortButton/SortButton';
 
 const header = (props) => {
     let sortIcon = null;

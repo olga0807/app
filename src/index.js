@@ -16,6 +16,8 @@ const rootReducer = combineReducers({
     db: dashboardReducer,
     sb: sidebarReducer
 });
+
+//Data for Redux devtools
 // const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 // const store = createStore(rootReducer, composeEnhancers(compose(
 //     applyMiddleware(thunk))));
@@ -25,11 +27,10 @@ const store = createStore(rootReducer,
 
 
 
-
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <BrowserRouter basename={"/dashboard"}>
+            <BrowserRouter basename="/app/">
                 <App />
             </BrowserRouter>
         </Provider>
